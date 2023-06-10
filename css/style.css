@@ -1,0 +1,259 @@
+
+/* accent */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+/* accent */
+
+
+/* header */
+header{
+    backdrop-filter: blur(5px);
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(206, 43, 43, .6);
+    position: fixed;
+}
+
+.header__burger {
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.header__nav ul a {
+    font-size: 18px;
+    color: white;
+}
+/* header */
+
+
+/* main */
+main{
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/cyan-neon-light-instagram-logo-6b3t8xx0omnvah7l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+main .container{
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+.main__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 20px;
+    color: white;
+}
+.main__wrap button{
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+/* main */
+
+/* about */
+#about {
+    padding: 100px 0;
+}
+
+.about__box {
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #a5a6a8;
+}
+
+.about__box img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* about */
+
+/* contacts */
+#contacts {
+    padding: 100px 0;
+}
+#contacts .container {
+    display: flex;
+    column-gap: 40px;
+}
+.contacts__img img{
+    width: 400px;
+    border-radius: 50%;
+}
+.contacts__info h2, .contacts__info p {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.contacts__info--send {
+    display: flex;
+    column-gap: 25px;
+    justify-content: space-between;
+}
+.contacts__info--input1, 
+.contacts__info--input2, 
+.contacts__info--btn {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#name, #tel {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.contacts__info--btn{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 150px;
+}
+
+.apply {
+    width: 150px;
+    height: 35px;
+    background-color: orange;
+}
+
+/* contacts */
+
+/* advantages */
+
+#advantages {
+    padding: 70px 0;
+}
+
+.advantages__container {
+    display: flex;
+    column-gap: 35px;
+    
+}
+
+.advantages__wrap, .advantages__side {
+   
+}
+/* .advantages__wrap {
+padding-right: 20px;
+}
+
+.advantages__side {
+padding-left: 20px;
+} */
+
+.advantages__wrap--first, .advantages__side--first {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.advantages__wrap--second, .advantages__side--second {
+    font-size: 18px;
+}
+
+/* advantages */
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding: 50px 0;
+
+}
+
+.footer__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__wrap h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.footer__wrap ul {
+    display: flex;
+    /* хелп */
+    align-items: center;  
+    column-gap: 15px;
+}
+
+.footer__wrap img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* footer */

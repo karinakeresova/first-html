@@ -1,0 +1,50 @@
+/* 1400px и больше(desktop) - extra extra large
+1200px и больше(desktop) - extra large
+992px и больше(desktop и tablet) - large
+768px и больше(tablet) - medium
+576px и больше(mobiles) - small
+390px и меньше(mobiles) - extra */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+    .header__burger {
+        display: block;
+    }
+     .header__nav ul {
+        display: none;
+     }
+
+     .main__wrap {
+        margin: 0 auto;
+        align-items: center;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        text-align: center;
+     }
+
+     #about .col-4  {
+        width: 50%;
+     }
+
+     .footer__wrap {
+        row-gap: 30px;
+     }
+
+     footer h2, footer ul {
+        width: 100%;
+     }
+      footer h2{
+        text-align: center;
+        
+      }
+      footer ul {
+        display: flex;
+        justify-content: center;
+      }
+
+}
+
+
